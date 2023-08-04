@@ -6,6 +6,8 @@ let pdpPage = new PdpPage();
 
 describe('PDP page', () => {
   it('QDP label do not display when user still not choose variant', () => {
+    // add new test case
+    
     cy.log("visit pdp url");
     cy.visit(ProductData.productQDP.url)
 
